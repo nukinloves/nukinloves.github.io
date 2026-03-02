@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
+    
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nukin Travels</title>
@@ -11,11 +12,27 @@ body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
 }
+    nav {
+    background: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #74b9ff;
+}
 
 header {
     background: linear-gradient(135deg, #74b9ff, #a0d8ff);
     color: white;
-    padding: 60px 20px;
+    padding: 120px 20px;
     text-align: center;
 }
 
@@ -77,12 +94,30 @@ footer {
     text-align: center;
     padding: 20px;
 }
+    button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: #74b9ff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4a90e2;
+}
 </style>
 </head>
 
 <body>
 
 <header>
+    <nav>
+  <a href="#">Home</a>
+  <a href="#">Destinations</a>
+  <a href="#">About</a>
+</nav>
     <h1>Nukin Travels ✈️</h1>
     <p>Travel stories, photos and experiences around the world</p>
 </header>
@@ -96,6 +131,7 @@ footer {
             <div class="card-content">
                 <h3>ญี่ปุ่น</h3>
                 <p>ประสบการณ์เที่ยวโตเกียวและภูเขาไฟฟูจิสุดประทับใจ</p>
+                <button>อ่านต่อ</button>
             </div>
         </div>
 
@@ -104,6 +140,7 @@ footer {
             <div class="card-content">
                 <h3>ปารีส</h3>
                 <p>เมืองแห่งความโรแมนติก และหอไอเฟลอันโด่งดัง</p>
+                <button>อ่านต่อ</button>
             </div>
         </div>
 
@@ -112,6 +149,7 @@ footer {
             <div class="card-content">
                 <h3>ทะเลไทย</h3>
                 <p>หาดทรายขาว น้ำใส และบรรยากาศผ่อนคลาย</p>
+                <button>อ่านต่อ</button>
             </div>
         </div>
     </div>
